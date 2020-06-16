@@ -1,0 +1,110 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgba(42, 38, 38, 0.68);
+  margin: 0;
+  padding: 0; }
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.25;
+  z-index: -1;
+  background-size: 100%; }
+  .bg-video video {
+    object-fit: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%; }
+
+.App .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 1300px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.6); }
+  .App .wrapper h1, .App .wrapper h2 {
+    text-transform: uppercase; }
+  .App .wrapper h5 {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.38);
+    border-top: 2px solid rgba(128, 128, 128, 0.38);
+    line-height: 3;
+    letter-spacing: 3px;
+    color: #e86312;
+    animation-name: moveInRight;
+    animation-duration: 3s; }
+  .App .wrapper .profilePhoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .App .wrapper .profilePhoto .photo {
+      width: 300px;
+      padding-top: 1rem;
+      clip-path: circle(42% at 50% 50%); }
+    .App .wrapper .profilePhoto a {
+      text-decoration: none; }
+    .App .wrapper .profilePhoto .button {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      width: 150px;
+      height: 50px;
+      background: #f3f0f1;
+      position: relative;
+      margin-bottom: 25px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.32); }
+      .App .wrapper .profilePhoto .button img {
+        width: 20px;
+        height: 20px; }
+      .App .wrapper .profilePhoto .button span {
+        text-transform: uppercase;
+        color: #e86312;
+        letter-spacing: 2px; }
+      .App .wrapper .profilePhoto .button:hover {
+        opacity: 0.3;
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.61), 6px 6px 10px rgba(0, 0, 0, 0.2); }
+      .App .wrapper .profilePhoto .button:active {
+        opacity: 1;
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        color: #79e3b6; }
+  .App .wrapper .profileInfo {
+    text-transform: uppercase;
+    transition: all 0.5s; }
+    .App .wrapper .profileInfo .icon {
+      width: 30px;
+      height: 30px;
+      border-right: 2px solid rgba(128, 128, 128, 0.38);
+      padding-right: 20px; }
+    .App .wrapper .profileInfo .iconInfo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid rgba(128, 128, 128, 0.38);
+      line-height: 3; }
+    .App .wrapper .profileInfo .iconLink :hover {
+      transform: translateY(-5px); }
+
+@media screen and (max-width: 1500px) {
+  .App .wrapper {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@keyframes moveInRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0; }
+  50% {
+    transform: translateX(-50px);
+    opacity: 0.8; }
+  100% {
+    transform: translate(0); } }

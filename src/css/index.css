@@ -81,8 +81,8 @@ body {
     text-transform: uppercase;
     transition: all 0.5s; }
     .App .wrapper .profileInfo .icon {
-      width: 30px;
-      height: 30px;
+      width: 45px;
+      height: 45px;
       border-right: 2px solid rgba(128, 128, 128, 0.38);
       padding-right: 20px; }
     .App .wrapper .profileInfo .iconInfo {
@@ -91,6 +91,9 @@ body {
       justify-content: space-between;
       border-bottom: 2px solid rgba(128, 128, 128, 0.38);
       line-height: 3; }
+    .App .wrapper .profileInfo .iconLink {
+      width: 45px;
+      height: 45px; }
     .App .wrapper .profileInfo .iconLink :hover {
       transform: translateY(-5px); }
 

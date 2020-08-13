@@ -120,8 +120,8 @@ body {
       transition: all 0.5s;
 
       .icon {
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
         border-right: $border;
         padding-right: 20px;
       }
@@ -132,6 +132,10 @@ body {
         justify-content: space-between;
         border-bottom: $border;
         line-height: 3;
+      }
+      .iconLink{
+        width: 45px;
+        height: 45px;
       }
 
       .iconLink :hover {
@@ -148,7 +152,6 @@ body {
       grid-template-columns: 1fr;
     }
   }
-
 }
 
 

@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import profilePhoto from './images/myPhoto.jpg';
 import '../src/scss/base.scss';
-import linkedin from './images/icons8-линкедин-50.png';
-import github from './images/icons8-github-50.png';
-import phone from './images/phone.svg';
+import linkedin from './images/icons8-linkedin.svg';
+import github from './images/icons8-github.svg';
+import phone from './images/phone.png';
 import email from './images/email.svg';
 import location from './images/location.svg';
 import video from './images/video.mp4';
@@ -59,10 +59,10 @@ function App() {
                     <p className={'iconInfo'}><img className={'icon'} src={phone}/>+380951663712</p>
                     <p className={'iconInfo'}><img className={'icon'} src={email}/>psevernyj69@gmail.com</p>
                     <p className={'iconInfo'}><img className={'icon'} src={location}/>Kyiv.Ukraine</p>
-                    <a className={'iconLink'}
-                       href={'https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-750b29163/'}>
-                        <img src={linkedin}/></a>
-                    <a className={'iconLink'} href={'https://github.com/psevernyj'}><img src={github}/></a>
+                    <a
+                        href={'https://www.linkedin.com/in/anastasiya-muzychenko-750b29163/'}>
+                        <img className={'iconLink'} src={linkedin}/></a>
+                    <a href={'https://github.com/psevernyj'}><img className={'iconLink'} src={github}/></a>
                 </section>
                 <section className={'workExperince'}>
                     <h5>WORK EXPERIENCE</h5>

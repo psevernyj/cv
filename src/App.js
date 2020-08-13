@@ -9,7 +9,7 @@ import email from './images/email.svg';
 import location from './images/location.svg';
 import video from './images/video.mp4';
 import video1 from './images/video.webm';
-import pdf from './pdf/CV_Anastasiya_Muzychenko_Junior_FD.pdf';
+import pdf from './pdf/CV_Anastasiya_Muzychenko_Junior_FrontEnd.pdf';
 import arrow from './images/down-arrow.svg';
 
 function App() {

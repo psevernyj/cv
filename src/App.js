@@ -37,7 +37,7 @@ function App() {
 
                 <section className={'goals'}>
                     <h1>Anastasiya Muzychenko</h1>
-                    <h2>Front-end (React) Developer</h2>
+                    <h2>Front-end  (React) Developer</h2>
                     <h4>Birth date: October 15, 1997</h4>
                     <h5>GOALS</h5>
                     <p>

@@ -41,7 +41,7 @@ function App() {
                     <h4>Birth date: October 15, 1997</h4>
                     <h5>GOALS</h5>
                     <p>
-                        Hi, I’m a Front-end developer with good knowledge of how the Web works.
+                        Hi,  I’m a Front-end developer with good knowledge of how the Web works.
                         Interested by web applications and client-side technologies and everything by the other side.
                         I enjoy developing responsive, user-friendly applications with aesthetic design.
                         I am committed to using React to create modern, fast, and capable application.
